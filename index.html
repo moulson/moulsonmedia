@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Moulson Media - Bespoke Web Design, Brochure Sites, and E-Commerce Solutions"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moulson Media | Web Design</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Add any custom styles or fonts here -->
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <!-- Header / Navigation -->
+    <header class="bg-white shadow">
+      <div
+        class="container mx-auto px-4 py-4 flex items-center justify-between"
+      >
+        <h1 class="text-2xl font-bold text-indigo-600">
+          Moulson<span class="text-gray-800">Media</span>
+        </h1>
+        <nav>
+          <ul class="flex space-x-4">
+            <li>
+              <a href="#services" class="hover:text-indigo-600">Services</a>
+            </li>
+            <li>
+              <a href="#about" class="hover:text-indigo-600">About</a>
+            </li>
+            <li>
+              <a href="#contact" class="hover:text-indigo-600">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="bg-cover bg-center bg-indigo-600 text-white py-20"
+      style="
+        background-image: url('https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+      "
+    >
+      <div class="container mx-auto px-4 text-center">
+        <div
+          class="bg-black bg-opacity-70 text-white px-4 py-2 inline-block rounded-lg"
+        >
+          <h2 class="text-4xl md:text-5xl font-extrabold mb-4">
+            Bespoke Web Design &amp; Digital Solutions
+          </h2>
+          <p class="text-lg md:text-xl mb-8">
+            Crafting modern and effective websites that are affordable for small
+            businesses and sole traders.
+          </p>
+          <a
+            href="mailto:dan@danmoulson.com?subject=Website Request&body=Hi, I would like to discuss a web design project."
+            class="inline-block bg-white text-indigo-600 font-semibold px-6 py-3 rounded hover:bg-gray-100"
+            >Get a Free Quote</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-12 bg-gray-100">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-8">
+          <h3 class="text-3xl font-bold">Our Services</h3>
+          <p class="text-gray-600 mt-2">
+            From brochure sites to bespoke e-commerce platforms, we tailor our
+            designs to your needs.
+          </p>
+        </div>
+
+        <div class="grid gap-8 md:grid-cols-4">
+          <!-- Service 1: Bespoke Websites -->
+          <div class="bg-white rounded shadow p-6 text-center">
+            <h4 class="text-xl font-semibold mb-4">Bespoke Websites</h4>
+            <p class="text-gray-600 mb-6">
+              Custom websites built from the ground up to align perfectly with
+              your brand identity and goals.
+            </p>
+          </div>
+
+          <!-- Service 2: Brochure Sites -->
+          <div class="bg-white rounded shadow p-6 text-center">
+            <h4 class="text-xl font-semibold mb-4">Brochure Sites</h4>
+            <p class="text-gray-600 mb-6">
+              Create an engaging online presence with a polished, professional
+              brochure-style website.
+            </p>
+          </div>
+
+          <!-- Service 3: E-commerce Sites -->
+          <div class="bg-white rounded shadow p-6 text-center">
+            <h4 class="text-xl font-semibold mb-4">E-Commerce Sites</h4>
+            <p class="text-gray-600 mb-6">
+              Drive online sales with a customized shopping experience that’s
+              secure, scalable, and user-friendly.
+            </p>
+          </div>
+
+          <div class="bg-white rounded shadow p-6 text-center">
+            <h4 class="text-xl font-semibold mb-4">Domain and Email</h4>
+            <p class="text-gray-600 mb-6">
+              Stand out and look professional with a custom domain and email
+              accounts to go with your site.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-12">
+      <div class="container mx-auto px-4">
+        <div class="text-center">
+          <h3 class="text-3xl font-bold mb-4">About Moulson Media</h3>
+          <p class="text-gray-600 mx-auto max-w-2xl leading-relaxed">
+            Moulson Media is committed to helping small and medium-sized
+            businesses establish a strong online presence. Whether you’re
+            looking for a brand-new website or a redesign of your current site,
+            we specialize in creating solutions that align with your unique
+            goals and budget. By using modern design practices, we deliver
+            customized, high-quality digital solutions that meet your needs,
+            attract your audience, and drive growth—all while ensuring
+            affordability and value.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12 bg-indigo-50">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-6">
+          <h3 class="text-3xl font-bold text-indigo-600">Let's Connect</h3>
+          <p class="text-gray-600 mt-2 mb-4">Ready to start your project?</p>
+          <a
+            href="mailto:dan@danmoulson.com?subject=Website Request&body=Hi, I would like to discuss a web design project."
+            class="inline-block bg-indigo-600 text-white font-medium py-2 px-4 rounded hover:bg-indigo-700"
+            >Get in Touch</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-4 border-t">
+      <div class="container mx-auto px-4 text-center">
+        <p class="text-gray-600">
+          &copy; <span id="year"></span> Moulson Media. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Script to update the year automatically -->
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
